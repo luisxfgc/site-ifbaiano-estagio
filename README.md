@@ -4,13 +4,13 @@
 
 ## Coisas a se fazer
 
-- [ ] Apresentar cursos oferecidos
-- [ ] Página de destaque para o curso de ADS
-- [ ] Usar sites do IFBA como referência
-- [ ] Realizar hospedagem
-- [ ] Comparar curso de ADS com 3 universidades EAD
-- [ ] Usar dados fictícios
-- [ ] Criar um chat no rodapé
+- Apresentar cursos oferecidos
+- Página de destaque para o curso de ADS
+- Usar sites do IFBA como referência
+- Realizar hospedagem
+- Comparar curso de ADS com 3 universidades EAD
+- Usar dados fictícios
+- Criar um chat no rodapé
 
 ## Páginas necessárias
 
