@@ -2,6 +2,9 @@
 
 💡 Desenvolver um site sobre o IF baiano, realizar comparações com outras faculdades e realizar uma hospedagem
 
+### Link da tarefa do meu Notion
+     https://www.notion.so/luisxfgc/Tarefa-Est-gio-26e800e621f64e0288141b457cf4031a
+
 ## Coisas a se fazer
 
 - Apresentar cursos oferecidos
