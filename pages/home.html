@@ -1,90 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>IFBA - If baiano</title>
-		<!-- Import CSS custom -->
-		<link rel="stylesheet" href="../public/style.css" />
-		<!-- Tailwnd CDN -->
-		<script src="https://cdn.tailwindcss.com"></script>
-	</head>
-	<body>
-		<header
-			class="text-gray-200 px-20 bg-red-400 flex flex-col shadow-md mb-10"
-		>
-			<div class="flex items-center py-6 justify-between">
-				<div class="flex items-center space-x-4">
-					<img
-						class="h-16"
-						src="../assets/img/if_logo.png"
-						alt="logo if baiano"
-					/>
-					<div class="flex flex-col">
-						<span class="font-extrabold text-2xl">IF Baiano</span>
-						<span class="text-xs">Campus Guanambi</span>
-					</div>
-				</div>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portal IF Baiano - Campus Guanambi</title>
+	<!-- My CSS -->
+	<link rel="stylesheet" href="../public/style.css">
+	<!-- Bootstrap CDN -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+		  <a class="navbar-brand mx-4" href="#">
+			<img src="../assets/img/if_logo.png" alt="" width="28" height="40" class="d-inline-block align-text-center mx-2">
 
-				<ul class="font-extrabold text-lg flex space-x-6 items-center">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Sobre</a></li>
-					<li><a href="#">Cursos</a></li>
-					<li><a href="#">ADS</a></li>
-					<li><a href="#">Contatos</a></li>
+			<b>IF Baiano - Campus Guanambi</b></a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  
+		</div>
+		<div class="collapse navbar-collapse w-50" id="navbarText">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0 px-2">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Sobre</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Cursos
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <li><a class="dropdown-item" href="#">Licenciatura em Química</a></li>
+				  <li><a class="dropdown-item" href="#">Bacharelado em Biologia</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="#">Mais Cursos</a></li>
 				</ul>
+			  </li>
+			  <li class="nav-item mx-4">
+				<a class="nav-link text-light btn btn-primary btn-large px-3 py-2" href="#"><b>Portal ADS</b></a>
+			  </li>
+			</ul>
+		  </div>
+	</nav>
+	<!-- End of Navbar -->
+
+	<!-- Carrousel -->
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<img src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="d-block" alt="...">
+			<div class="carousel-caption d-md-block">
+			  <h1 class="h1">Tecnologo em Análise e desenvolvimento de Sistemas</h1>
+			  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo accusamus reprehenderit vero, officia odit neque corrupti, incidunt repudiandae rerum fuga corporis quibusdam blanditiis! Natus quasi dolorum aspernatur modi, veniam aperiam!</p>
 			</div>
-			<div
-				class="max-w-4xl bg-indigo-400 my-auto self-start text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-slate-200"
-			>
-				<h1 class="font-black text-7xl mb-4">
-					O Instituto Federal mais completo e amado do Brasil
-				</h1>
-				<h4 class="text-gray-200 mb-8">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-					laboriosam numquam alias necessitatibus? Possimus accusamus nostrum
-					libero dolore autem esse.
-				</h4>
-				<button
-					class="text-gray-100 font-bold bg-emerald-600 px-4 py-2 rounded-md shadow hover:bg-emerald-700 transition ease-in-out duration-150"
-				>
-					Saiba mais
-				</button>
+		  </div>
+		  <div class="carousel-item">
+			<img src="https://images.unsplash.com/photo-1614935151651-0bea6508db6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=925&q=80" class="d-block" alt="..." width="100%">
+			<div class="carousel-caption d-md-block">
+			  <h1 class="h1">Curso de Licenciatura em Química</h1>
+			  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo accusamus reprehenderit vero, officia odit neque corrupti, incidunt repudiandae rerum fuga corporis quibusdam blanditiis! Natus quasi dolorum aspernatur modi, veniam aperiam!.</p>
 			</div>
-		</header>
-		<main class="container mx-auto">
-			<section>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-				excepturi eum consequatur ratione natus, iste sapiente cum accusamus quo
-				impedit beatae? Incidunt quibusdam, a necessitatibus porro officia iure
-				voluptas ab voluptate? Nobis esse commodi ad libero autem, animi nam at
-				aliquam veniam dignissimos, consectetur rem minus numquam accusantium ab
-				quidem ipsam aspernatur reprehenderit deserunt nostrum fuga. Culpa earum
-				eos eaque a eius omnis, ipsa iste porro pariatur, quae dignissimos
-				consequatur accusamus ratione eveniet fuga perspiciatis rerum quos est
-				similique quia delectus? Perspiciatis eaque consectetur incidunt
-				reprehenderit, praesentium veniam placeat cumque. Deleniti similique
-				officiis suscipit aliquid voluptatem cupiditate, voluptatibus sed
-				libero!
-			</section>
-			<section>sessão 2</section>
-			<section>sessão 3</section>
-			<section class="p-10">
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque earum
-				accusantium neque magni aut modi eveniet mollitia dolorum natus ea,
-				quibusdam, voluptas, nulla quo! Aut, quisquam deserunt ipsam suscipit
-				rerum reprehenderit quo, officiis tenetur inventore corporis libero,
-				magni aperiam explicabo iste ad asperiores eum repudiandae consequuntur
-				exercitationem autem magnam voluptates adipisci? Ipsum nam repellat
-				laborum ab culpa quod incidunt quos! Maxime distinctio exercitationem
-				iure vitae eius fugit a rem possimus sed soluta nisi repellendus harum
-				nihil nobis in, nesciunt aperiam ducimus, voluptas illum perspiciatis
-				unde repudiandae incidunt dignissimos voluptate. Numquam est porro
-				repellat dolorem hic reiciendis reprehenderit necessitatibus incidunt.
-				Doloremque?
-			</section>
-		</main>
-		<footer class="w-full bg-emerald-600 text-slate-100">rodapé</footer>
-	</body>
+		  </div>
+		  <div class="carousel-item">
+			<img src="https://images.unsplash.com/photo-1497903964211-19e65cc3360c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-md-block">
+			  <h1 class="h1">Curso de Licenciatura em Biologia</h1>
+			  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo accusamus reprehenderit vero, officia odit neque corrupti, incidunt repudiandae rerum fuga corporis quibusdam blanditiis! Natus quasi dolorum aspernatur modi, veniam aperiam!</p>
+			</div>
+		  </div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</button>
+	</div>
+	<!-- End of Carousel -->
+
+	<!-- First Section -->
+
+	<!-- Card group -->
+	<section class="container my-4">
+		<div class="card-group">
+			<div class="card">
+			<img src="https://images.unsplash.com/photo-1532153470116-e8c2088b8ac1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			</div>
+			</div>
+			<div class="card">
+			<img src="https://images.unsplash.com/photo-1532187643603-ba119ca4109e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+				<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			</div>
+		</div>
+		<div class="card">
+		  <img src="https://images.unsplash.com/photo-1575089976121-8ed7b2a54265?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<h5 class="card-title">Card title</h5>
+			<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+			<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	
+	<!-- Scripts bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
 </html>

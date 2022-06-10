@@ -1,20 +1,50 @@
 /* import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap');
 
-body {
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
 	font-family: 'Inter', sans-serif;
-	height: 100%;
-	position: relative;
 }
 
-header {
-	height: 80vh;
-	background: url('../assets/img/header_image.jpg') center center no-repeat;
-	background-size: cover;
+a{
+	text-decoration: none;
+}
+
+ul li{
+	list-style-type: none;
 }
 
 footer {
 	position: absolute;
 	bottom: 0;
 	left: 0;
+}
+
+/* Customize Bootstrap */
+.carousel-inner:after{
+	content:'';
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color:rgba(0,0,0,.4);
+}
+
+.carousel-inner img{
+	z-index: 1;
+	width: 100%;
+	max-height: 80vh;
+	object-fit: cover;
+}
+
+.carousel-caption{
+	z-index: 99;
+}
+
+.card{
+	height: 80px;
 }
