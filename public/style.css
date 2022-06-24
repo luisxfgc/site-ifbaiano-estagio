@@ -31,13 +31,13 @@ footer {
 	bottom:0;
 	left:0;
 	right:0;
-	background-color:rgba(0,0,0,.7);
+	background-color:rgba(0,0,0,.75);
 }
 
 .carousel-inner img{
 	z-index: 1;
 	width: 100%;
-	max-height: 90vh;
+	max-height: 85vh;
 	object-fit: cover;
 }
 
@@ -45,10 +45,14 @@ footer {
 	z-index: 99;
 }
 
-.card{
-	height: 100px;
+.card-img{
+	object-fit: cover;
 }
 
 .fs-7{
 	font-size: 14px;
+}
+
+.fs-8{
+	font-size: 12px;
 }
