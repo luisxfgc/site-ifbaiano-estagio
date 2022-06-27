@@ -17,11 +17,6 @@ ul li{
 	list-style-type: none;
 }
 
-footer {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-}
 
 /* Customize Bootstrap */
 .carousel-inner:after{
