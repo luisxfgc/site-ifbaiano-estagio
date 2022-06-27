@@ -37,7 +37,8 @@ footer {
 .carousel-inner img{
 	z-index: 1;
 	width: 100%;
-	max-height: 85vh;
+	height: 60vh;
+	background-position: center;
 	object-fit: cover;
 }
 
