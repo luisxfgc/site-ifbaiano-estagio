@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos - Portal IF Baiano - Campus Guanambi</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/if_logo_favicon.png" type="image/x-icon">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="public/style.css">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Script jivochat -->
+    <script src="//code.jivosite.com/widget/ZKuDGv6XAK" async></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-4" href="/index.html">
+                <img src="../assets/img/if_logo.png" alt="" width="28" height="40"
+                    class="d-inline-block align-text-center mx-2">
+
+                <b class="fs-6 fw-bold">IF Baiano - Campus Guanambi</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </div>
+        <div class="collapse navbar-collapse w-50" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-2">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="about.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark active fw-bold" aria-current="page" href="cursos.html">Cursos</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link text-light btn btn-success btn-small px-4 py-2 fw-bold" href="#">Portal ADS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Carrousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="http://ifbaiano.edu.br/unidades/guanambi/2022/06/08/campus-guanambi-abre-selecao-para-contratar-professora-de-quimica/"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="https://www.etecerqueira.com.br/img/4.jpg" class="d-block" alt="...">
+                    <div class="carousel-caption d-md-block text-start">
+                        <p class="fs-8">Integrado</p>
+                        <h1 class="display-2 fw-bold mb-4">Técnico em Agroindústria</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="http://ifbaiano.edu.br/unidades/guanambi/2022/06/08/campus-guanambi-abre-selecao-para-contratar-professora-de-quimica/"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="https://opresenterural.com.br/wp-content/uploads/2020/04/engenharia_zoot%C3%A9cnica.jpg"
+                        class="d-block" alt="..." width="100%">
+                    <div class="carousel-caption d-md-block text-start">
+                        <p class="fs-8">Subsequente</p>
+                        <h1 class="display-2 fw-bold mb-4">Técnico em Zootecnia</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block text-start">
+                    <p class="fs-8">
+                        Superior
+                    </p>
+                    <h1 class="display-4 fw-bold mb-4">Tecnologia em Análise e Desenvolvimento de Sistemas</h1>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- End of Carousel -->
+    <!-- tabs -->
+    <section class="container my-5">
+        <h1 class="h2 fw-bold mt-5">Conheça nossos cursos</h1>
+        <hr class="mb-4">
+        <div class="d-flex align-items-start">
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <!-- botões das abas -->
+                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                    aria-selected="true">Integrado</button>
+                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                    aria-selected="false">Subsequente</button>
+                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                    aria-selected="false">Superior</button>
+                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                    aria-selected="false">Pós-Graduação</button>
+            </div>
+            <!-- conteúdo das abas -->
+            <div class="tab-content" id="v-pills-tabContent">
+                <!-- integrado -->
+                <div class="tab-pane fade show active px-2" id="v-pills-home" role="tabpanel"
+                    aria-labelledby="v-pills-home-tab">
+                    <div class="mx-2">
+                        <h2 class="h4 fw-bold">Técnico em Agroindústria</h2>
+                        <p class="fs-7">O curso Técnico em Agroindústria Integrado ao Ensino Médio visa atender jovens que concluíram a 8° série do Ensino Fundamental e que procuram formação técnica associada a formação de nível médio. O curso possui duração de 3 (três) anos, realizando-se no período diurno, sendo um dos períodos destinado às disciplinas do Ensino Médio e o outro turno destinado às disciplinas da Ensino Técnico. A carga horária total de 3.560 h completa-se com Estágio supervisionado de 200 h</p>
+                    </div>
+                    <div class="mx-2 my-5">
+                        <h2 class="h4 fw-bold">Técnico em Agropecuária</h2>
+                        <p class="fs-7">O Curso Técnico em Agropecuária integrado ao Ensino Médio foi implantado para atender alunos egressos do Ensino Fundamental. O curso é constituído de regime seriado, sem terminalidade, com matrícula única para o Ensino Médio e a Educação Profissional. Possui uma só Matriz curricular e confere o Diploma de Técnico em Agropecuária aos seus concluintes.</p>
+                    </div>
+                    <div class="mx-2 my-5">
+                        <h2 class="h4 fw-bold">Técnico em informática para a internet</h2>
+                        <p class="fs-7">O curso Técnico em Informática para Internet, Integrado ao Ensino Médio, destina-se a pessoas que concluíram ao 9º ano do Ensino Fundamental e que procuram formação técnica associada à formação de nível médio. Com uma duração mínima de 3 (três) anos, cursada em período integral diurno, com carga horária total de 3520 horas.</p>
+                    </div>
+                    <div class="mx-2 my-5">
+                        <h2 class="h4 fw-bold">Técnico em Informática <b class="fs-7 text-danger">– PROEJA</b></h2>
+                        <p class="fs-7">O curso Técnico em Informática para Internet, Integrado ao Ensino Médio, destina-se a pessoas que concluíram ao 9º ano do Ensino Fundamental e que procuram formação técnica associada à formação de nível médio. Com uma duração mínima de 3 (três) anos, cursada em período integral diurno, com carga horária total de 3520 horas.</p>
+                    </div>
+                </div>
+                <!-- subsequente -->
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <div class="mx-2 mb-5">
+                        <h2 class="h4 fw-bold">Técnico em Zootecnia</h2>
+                        <p class="fs-7">A estrutura do Curso Pós Médio em Zootécnia é semelhante ao Pós Médio em Agricultura, sendo por isto, também composta de três módulos, com o primeiro básico, com disciplinas como Planejamento e Projeto, Gestão, Informática, Construções Rurais, dentre outras. O segundo e terceiro módulos, são voltados para a formação técnica do aluno, com disciplinas como: Avicultura, Apicultura, Bovinocultura, Suinocultura, Piscicultura, Cunicultura, Caprino-ovinocultura, Equideocultura e Beneficiamento da produção</p>
+                    </div>
+                    <div class="mx-2">
+                        <h2 class="h4 fw-bold">Técnico em Agricultura</h2>
+                        <p class="fs-7">O curso Pós médio em Agricultura, implantado em fevereiro de 2000, é voltado para jovens e adultos que concluíram o ensino médio e que buscam formação técnica na área de Agricultura ou que procuram oportunidades de qualificação e requalificação em menor tempo, (1) um ano. O curso está organizado em três módulos: O primeiro é básico sendo ministradas disciplinas como Planejamento e Projeto, Gestão, Informática, Construções Rurais, dentre outras. No segundo e terceiro módulos, o aluno cursará disciplinas como: Olericultura, Culturas anuais, Fruticultura, Mecanização Agrícola, Beneficiamento vegetal, Irrigação e Topografia.</p>
+                    </div>
+                </div>
+                <!-- superior -->
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    <div class="mx-2 mb-5">
+                        <h2 class="h4 fw-bold">Bacharelado em Engenharia Agronômica</h2>
+                        <p class="fs-7">O colegiado do Curso Superior de Bacharelado em Engenharia Agronômica oferecido pelo IF Baiano – CampusGuanambi conta atualmente com 44 professores. Destes, 54,55 % são doutores; 36,36% mestres e 9,09 especialistas. O Campus possui uma estrutura física com áreas de cultivo e experimentação, denominadas de Laboratórios Didáticos, de diversas Culturas Agrícolas de interesse regional.
+                        </p>
+                    </div>
+                    <div class="mx-2 mb-5">
+                        <h2 class="h4 fw-bold">Licenciatura em Ciências Biológicas</h2>
+                        <p class="fs-7">
+                            O Curso Superior de Licenciatura em Ciências Biológicas do Campus Guanambi objetiva formar e qualificar profissionais com amplo conhecimento técnico, científico e pedagógico, propiciando ao licenciado a capacidade de utilizar os conhecimentos das Ciências Biológicas pautados na valorização da diversidade, nos direitos humanos, na democracia e na pluralidade de ideias com vistas ao desenvolvimento da autonomia, da capacidade de resolução de problemas, dos processos investigativos, criativos e interdisciplinares a fim de compreender e intervir nos contextos social, político e ambiental para contribuir com a melhoria das condições do desenvolvimento da Educação Básica no Brasil.
+                        </p>
+                    </div>
+                    <div class="mx-2 mb-5">
+                        <h2 class="h4 fw-bold">Licenciatura em Química</h2>
+                        <p class="fs-7">
+                            O curso de Licenciatura em Química do campus Guanambi possui a finalidade de formar profissionais para atuar na Educação Básica, em particular, nos ensinos Fundamental, Médio e Médio Integrado, bem como em cursos superiores e ainda atuar em laboratórios de indústrias químicas, farmacêuticas, alimentícias, de pesquisa e do setor químico, de acordo com a legislação vigente.
+                        </p>
+                    </div>
+                    <div class="mx-2 mb-5">
+                        <h2 class="h4 fw-bold">Tecnologia em Agroindústria</h2>
+                        <p class="fs-7">
+                            O Curso Superior de Tecnologia em Agroindústria, ofertado pelo IF Baiano Campus Guanambi criado em 2010, tem por finalidade formar profissionais qualificados para atuar nos diversos segmentos da cadeia agroindustrial, habilitando-os a exercer atividades de planejamento, execução e controle da qualidade das etapas do processo de produção agroindustrial contemplando a obtenção, o processamento e a comercialização de matérias-primas de diversas origens, insumos e produtos finais. Suas competências profissionais são fundamentadas na ciência, na tecnologia, na cultura e na ética.
+                        </p>
+                    </div>
+                    <div class="mx-2 mb-5">
+                        <h2 class="h4 fw-bold">Tecnologia em Análise e desenvolvimento de sistemas</h2>
+                        <p class="fs-7">
+                            O curso superior de Tecnologia em Análise e Desenvolvimento de Sistemas tem como objetivo a formação de profissionais capazes de compreender o processo de construção e reconstrução do conhecimento no domínio do desenvolvimento de sistemas e, dessa forma, realizar atividades de concepção, especificação, projeto, implementação, avaliação, suporte e manutenção de sistemas computacionais, orientando sua ação na sociedade em geral e no mundo do trabalho, em particular para a busca de soluções para o setor produtivo e para a melhoria da qualidade de vida das populações.
+                        </p>
+                    </div>
+                </div>
+                <!-- pós-graduação -->
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    <div class="mx-2 mb-5">
+                        <h2 class="h4 fw-bold">Mestrado Profissional <span class="fst-italic">Stricto sensu</span> em Produção Vegetal no Semiárido (MPPVS)</h2>
+                        <p class="fs-7">
+                            O curso superior de Tecnologia em Análise e Desenvolvimento de Sistemas tem como objetivo a formação de profissionais capazes de compreender o processo de construção e reconstrução do conhecimento no domínio do desenvolvimento de sistemas e, dessa forma, realizar atividades de concepção, especificação, projeto, implementação, avaliação, suporte e manutenção de sistemas computacionais, orientando sua ação na sociedade em geral e no mundo do trabalho, em particular para a busca de soluções para o setor produtivo e para a melhoria da qualidade de vida das populações.
+                        </p>
+                    </div>
+                    <div class="mx-2 mb-5">
+                        <h2 class="h4 fw-bold">Especialização em Ensino de Ciências Naturais e Matemática</h2>
+                        <p class="fs-7">
+                            Curso de Pós-Graduação lato sensu em Ensino de Ciências Naturais e Matemática destina-se a professores do ensino básico, portadores de diploma de curso superior, que ministram aulas de Ciências e/ou Matemática, além de profissionais graduados em Física, Química, Biologia, Matemática ou Pedagogia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of tabs -->
+    <!-- list-group -->
+    <section class="container my-5">
+        <h1 class="h3 fw-bold mt-2 mb-4">Regimentos e informativos</h1>
+        <ul class="list-group fs-7">
+            <li class="list-group-item">Dirigente da Instituição
+            </li>
+            <li class="list-group-item">Estatuto do IF Baiano</li>
+            <li class="list-group-item">Organização Didática da Educação Superior do Instituto Federal de Educação, Ciência e Tecnologia Baiano – Conselho Superior/IF Baiano – Ano 2012</li>
+            <li class="list-group-item">Organização Didática da Educação Superior do Instituto Federal de Educação, Ciência e Tecnologia Baiano – Conselho Superior/IF Baiano – Ano 2010/li>
+            <li class="list-group-item">Plano de Desenvolvimento Institucional (PDI) 2015-2019</li>
+            <li class="list-group-item">Política de Assistência Estudantil</li>
+            <li class="list-group-item">Política de Diversidade e Inclusão</li>
+            <li class="list-group-item">Projeto Politico Pedagogico – Campus Guanambi – 2016</li>
+            <li class="list-group-item">Regimento Geral do IF Baiano</li>
+          </ul>
+    </section>
+    <!-- end of list-group -->
+
+    <!-- footer -->
+    <section class="container-fluid bg-dark text-light">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col">
+                    <div class="row text-center p-5">
+                        <h5 class="h5 fw-bold">Instituto Federal de Educação, Ciência e Tecnologia Baiano – Campus
+                            Guanambi</h5>
+                        <p class="fs-5">
+                            Zona Rural - Distrito de Ceraíma, Bahia - CEP: 46430-000
+                        </p>
+                        <p class="fs-7">
+                            Tel.: (77) 3493-2100
+                            <br>
+                            Diretor: Carlito José de Barros Filho
+                            <br>
+                            E-mail: gabinete@guanambi.ifbaiano.edu.br
+                        </p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <p class="fs-8 text-center">Reitoria: Rua do Rouxinol, nº 115, Imbuí, Salvador-BA. CEP: 41720-052.
+                        CNPJ: 10.724.903/0001-79 Telefone: (71) 3186-0001 | E-mail: gabinete@ifbaiano.edu.br</p>
+                    <p class="text-center">© 2022 IF Baiano, Inc. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- Scripts bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
